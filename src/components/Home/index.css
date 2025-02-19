@@ -1,0 +1,126 @@
+.home-main-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:  Arial;
+    min-height: 90vh;
+    background-image: linear-gradient(
+      to left,
+      rgba(175, 176, 183, 0),
+      rgb(190, 219, 230)
+    );
+    padding-bottom: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .home-p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+
+  }
+  
+  .home-h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #0f1635;
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    width: 450px;
+  }
+  
+  .desc {
+    color: #444343;
+    font-size: 25px;
+    font-weight: 500;
+    width: 650px;
+    margin-bottom: 20px;
+  }
+  
+  .link-btn {
+    background-color: #6e85eb; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .home-link-btn:hover {
+    background-color: #586ad5;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .web-img {
+    width: 450px;
+    box-shadow: 5px 10px 15px 15px #a1a1a5;
+    border-radius: 50px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .web-mb-img {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-main-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .home-mb-div {
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+
+    .home-desc-div {
+      margin-bottom: 20px;
+      padding-top: 0px;
+    }
+  
+    .home-p {
+      font-size: 25px;
+      margin-top: 0px;
+    }
+  
+    .home-h1 {
+      width: 300px;
+      font-size: 20px;
+    }
+  
+    .desc {
+      width: 300px;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+  
+    .web-img {
+      display: none;
+    }
+  
+    .web-mb-img {
+      width: 250px;
+      margin-bottom: 30px;
+      border-radius: 40px;
+    }
+  
+    .link-btn {
+      font-size: 12px;
+      margin-top: 20px;
+    }
+  }

@@ -1,0 +1,352 @@
+.ap-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:  Arial;
+    color: #0f1635;
+    min-height: 90vh;
+    width: 95%;
+    background-image: linear-gradient(
+      to left,
+      rgba(175, 176, 183, 0),
+      rgb(190, 219, 230)
+    );
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0px;
+  }
+
+  .ap-main-h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 180px;
+  }
+
+  .ap-details-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;   
+  }
+
+  .ap-img {
+    width: 280px;
+  }
+
+  .ap-details-h1 {
+    color: #6e85eb;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+
+  .ap-details-name {
+    font-size: 22px;
+  }
+
+  .ap-details-p{
+    font-size: 25px;
+  }
+
+
+  .doctor-ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  .dc-details-div {
+    border-right: 2px solid #6e85eb;
+    padding-right: 40px;
+  }
+
+  .patient-reviews-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+
+  .pt-rv-ul {
+    display: flex;
+    align-items: center;
+    width: 1470px;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+  .prfoile-icon {
+    font-size: 50px;
+    color: #08144c;
+  }
+
+  .pt-rv-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .pt-rv-h1 {
+    align-self: flex-start;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-family:  Times;
+  }
+
+  .pt-rv-li {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #6e85eb;
+    color: #08144c;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 20px;
+  }
+
+  .ap-bk-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 80px;
+  }
+
+  .av-sl-h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .av-time-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 1420px;
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .time-li-div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .time-li {
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #6e85eb;
+    border-radius: 20px;
+    color: #6e85eb;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .time-li:hover {
+    background-color: transparent;
+    color: #6e85eb;
+  }
+
+  .selected-time {
+    background-color: #6e85eb;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .pay-button-container {
+    text-align: center;
+  }
+  
+  .pay-link-btn {
+    background-color: #22a12a;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 19px;
+    transition: background-color 0.3s ease;
+  }
+
+  .ap-error-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 40px;
+  }
+
+  .no-data-img {
+    width: 400px;
+    border-radius: 20px;
+  }
+
+  .no-data-p {
+    font-size: 25px;
+    color: #eb2e2e;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .ap-main-div {
+      width: 100%;
+      padding: 0px;
+      padding-bottom: 40px;
+    }
+
+    .ap-details-div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 80%;
+      margin: 0px;
+      margin-top: 10px;
+    }
+
+
+    .dc-details-div {
+      margin: 0px 0px 10px 0px;
+      padding: 0px 0px 20px 0px;
+      border: 0px;
+      border-bottom: 2px solid #6e85eb;
+    }
+
+    .ap-details-h1 {
+      color: #6e85eb;
+      font-size: 25px;
+    }
+  
+    .ap-details-name {
+      font-size: 15px;
+    }
+  
+    .ap-details-p{
+      font-size: 15px;
+    }
+
+    .ap-img {
+      width: 250px;
+      margin: 0px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .ap-main-h1 {
+      width: 340px;
+      font-size: 16px;
+      color: #08144c;
+      text-align: center;
+      margin-top: 40px;
+      padding: 0px;
+    }
+
+    .patient-reviews-main-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin-bottom: 40px;
+    }
+  
+    .pt-rv-ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      flex-wrap: wrap;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .prfoile-icon {
+      font-size: 40px;
+      color: #08144c;
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .pt-rv-h1 {
+      align-self: flex-start;
+      font-size: 22px;
+      margin: 20px 0px 20px 20px;
+    }
+
+    .pt-rv-div{
+      display: flex;
+      align-items: center;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .pt-rv-li {
+      width: 100%;
+      padding: 10px;
+      width: 250px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 20px;
+      margin: 10px;
+    }
+
+    .ap-bk-main-div {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0px;
+      padding: 0px;
+      padding-left: 0px;
+      border-top: 2px solid #6e85eb;
+    }
+
+    .av-sl-h1 {
+      font-size: 25px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      
+    }
+
+    .av-time-ul {
+      display: flex;
+      flex-wrap: wrap;
+      width: 320px;
+    }
+    
+    .time-li {
+      margin: 10px;
+      font-size: 15px;
+    }
+
+    .pay-button-container {
+      text-align: center;
+      font-size: 14px;
+      margin: 0px;
+      margin-left: 116px;
+      margin-top: 20px;
+    }
+
+    .no-data-img {
+      width: 200px;
+    }
+
+    .no-data-p {
+      font-size: 14px;
+    }
+
+    .ap-error-div {
+      margin: 0px;
+    }
+  }
