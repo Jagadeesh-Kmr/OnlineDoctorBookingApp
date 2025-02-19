@@ -41,7 +41,7 @@ const RenderRegistration = () => {
             <div className='dc-details-div'>
             <h1 className='ap-details-h1'> Doctor Profile</h1>
             {selectedDoctorDetails.map((doctorDtls, index) => (
-              <ul key={index} className='doctor-ul'>
+              <ul key={index+doctorDetails.name} className='doctor-ul'>
               <h2 className='ap-details-p'><strong>Name:</strong> {doctorDtls.name}<span style={{fontSize: '14px', color: '#4560db', marginLeft: '10px'}}>{doctorDtls.education}</span></h2>
               <p className='ap-details-p'><strong>Review:</strong> {doctorDtls.reviews}</p>
               <p className='ap-details-p'><strong>Experience:</strong> {doctorDtls.experience} yrs</p>

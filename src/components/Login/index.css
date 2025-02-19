@@ -50,7 +50,8 @@
 
     .login-img {
       display: flex;
-      width: 410px;
+      width: 380px;
+      height: 410px;
       box-shadow: 5px 10px 15px 15px #a1a1a5;
       border-radius: 10px;
     }
@@ -70,7 +71,7 @@
   }
   
   .loginP {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     color: #0b69ff;
     text-decoration: underline;
@@ -158,5 +159,21 @@
     cursor: pointer;
     outline: none;
   }
+
+  @media screen and (max-width: 768px){
+    .loginFormContainer {
+      background-image: url('https://img.transistor.fm/ezDPAvEDEj-rrQHeGf-5HhZAEb9oLuBkoYFX_HqUh7A/rs:fill:800:800:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80MTRm/Nzg0MDMyZTU0YTk0/OGRhMDhjN2FlNGMy/M2RkYi5qcGc.webp');
+    }
+
+    .loginP {
+      color: #d7dfe9;
+      font-size: 28px;
+    }
+
+    .label {
+      color: #d7dfe9;
+    }
+  }
+
   
   

@@ -292,7 +292,12 @@ const Doctors = () => {
                     type="text"
                     id="patientName"
                     placeholder="Name"
-                    onChange={(e) => { setPatientName(e.target.value); }}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      if (/^[A-Za-z\s]*$/.test(value)) {
+                        setPatientName(value);
+                      }
+                    }}
                     value={patientName}
                     className="rg-input"
                   />
@@ -302,7 +307,12 @@ const Doctors = () => {
                       <input
                         type="text"
                         id="age"
-                        onChange={(e) => { setPatientAge(e.target.value) }}
+                        onChange={(e) => {
+                          const value = e.target.value;
+                          if (/^\d*$/.test(value)) {
+                            setPatientAge(value);
+                          }
+                        }}
                         value={patientAge}
                         className="rg-input age"
                       />
@@ -393,7 +403,7 @@ const Doctors = () => {
       {filteredDoctors.length > 0 ? (
         <ul className='doctors-ul'>
         {filteredDoctors.map((doctor, index) => (
-          <DisplayDoctorsData key={index} doctorsData={doctor} />
+          <DisplayDoctorsData key={index+doctor} doctorsData={doctor} />
         ))}
         </ul>
         ) : (

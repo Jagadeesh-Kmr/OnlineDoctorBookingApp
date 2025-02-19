@@ -17,21 +17,24 @@ const Login = () => {
 
   const renderLoginForm = () => {
       const onSubmitForm = event => {
-            event.preventDefault()
-            if (userName === "web01" && password==="web01@doctor") {
+            event.preventDefault();
+            if (userName === "doctor" && password==="doctor@care") {
                 login();
-                navigate('/')
-                } else {
-                    onSubmitFailure("USERNAME OR PASSWORD IS INVALID")
-                }
-      }
+                navigate('/');
+               
+              } else if(userName === "" || password === ""){
+                setErrorMsg("USERNAME OR PASSWORD IS EMPTY")
+              } else {
+                setErrorMsg("USERNAME OR PASSWORD IS INVALID")
+              };
+      };
         const onSubmitFailure = error => {
                   setErrorMsg(error)
-      }
+      };
 
       const onclickPassword = () => {
         setPasswordSee(!passwordSee)
-      }
+      };
 
       const passwordText = passwordSee ? 'text' : 'password'
       const passwordIcon = passwordSee ? <FaEyeSlash /> : <FaEye />
@@ -82,11 +85,10 @@ const Login = () => {
     <>
     <div className="loginFormContainer">
       <img 
-      src="https://cdni.iconscout.com/illustration/premium/thumb/mobile-healthcare-app-illustration-download-in-svg-png-gif-file-formats--online-booked-appointment-consultation-schedule-medical-conference-and-pack-illustrations-4649545.png"
+      src="https://images.booking-wp-plugin.com/main/blog/Reduces-Patient-No-Shows.jpg"
       alt="loginImg"
       className='login-img'
       />
-
       {renderLoginForm()}
     </div>
     </>
