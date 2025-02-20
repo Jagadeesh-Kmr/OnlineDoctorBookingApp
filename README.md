@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Online Doctor Appointment Booking System is a web-based platform that allows patients to register and book appointments with doctors seamlessly. It provides an easy-to-use interface optimized for both desktop and mobile devices.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+✔ Secure Login & Navigation – Authenticated routes for user access. 
 
-### `npm start`
+     userName: doctor
+     Password: doctor@care
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔ Doctor Selection – Browse and choose doctors based on specialization.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔ Appointment Booking – Select available time slots and confirm appointments.
 
-### `npm test`
+✔ Patient Management – Store and retrieve patient details using local storage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔ Basic Payment Simulation – Displays a "Payment Done" message after clicking the payment button.
 
-### `npm run build`
+✔ Context API for State Management – Manages user authentication and appointment data globally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔ Mobile-Friendly Design – Responsive UI for seamless experience on all screen sizes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend: React.js, JavaScript, HTML, CSS
 
-### `npm run eject`
+State Management: React Hooks (useState, useEffect), Context API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Routing: React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Storage: Local Storage for managing patient details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Styling: CSS3, Flexbox, Media Queries (for responsive design)   provide installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Installation
+Prerequisites
+Node.js (version v22.13.0) installed on your machine.
+npm (Node Package Manager)
+Steps to Install and Run the App
+Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy
+git clone https://github.com/Jagadeesh-Kmr/OnlineDoctorApp.git
+Navigate into the project directory:
 
-### Code Splitting
+bash
+Copy
+cd OnlineDoctorApp
+Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copy
+npm install
+Start the development server:
 
-### Analyzing the Bundle Size
+bash
+Copy
+npm start
+This will run the app at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open the app in your browser to test it out:
 
-### Making a Progressive Web App
+Username: doctor
+Password: doctor@care
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+License
+This project is licensed under the MIT License.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+Email: jagadeesh.1724@gmail.com
+GitHub: https://github.com/Jagadeesh-Kmr
