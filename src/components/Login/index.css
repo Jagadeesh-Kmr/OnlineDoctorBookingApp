@@ -194,6 +194,10 @@
       align-items: center;
       width: 200px;
     }
+
+    .password-btn {
+      margin-right: 40px;
+    }
   }
 
   

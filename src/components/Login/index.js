@@ -55,7 +55,7 @@ const Login = () => {
                   <label className="label" htmlFor="password">
                     Enter Password*
                   </label>
-                <div className='password-div'>
+                  <div className='password-div'>
                   <input
                     type={passwordText}
                     id="password"
