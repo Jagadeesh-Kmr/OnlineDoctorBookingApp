@@ -197,6 +197,7 @@
 
     .inputPassword {
       border: 2px solid #0b69ff;
+      width: 150px;
     }
 
     .password-btn {
