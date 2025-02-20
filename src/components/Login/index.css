@@ -195,8 +195,16 @@
       width: 200px;
     }
 
+    .inputPassword {
+      border: 2px solid #0b69ff;
+    }
+
     .password-btn {
       margin-right: 40px;
+    }
+
+    .eye-icon {
+      border: 2px solid #0b69ff;
     }
   }
 
