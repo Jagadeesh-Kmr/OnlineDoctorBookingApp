@@ -130,7 +130,7 @@
     border-radius: 2px;
     margin-top: 5px;
     margin-bottom: 20px;
-    padding: 8px 16px 8px 16px;
+    padding: 8px 14px 8px 14px;
     outline: none;
   }
   
@@ -140,6 +140,7 @@
     border: 0px;
     background-color: transparent;
     color: #64748b;
+    padding: 8px 8px 8px 0px;
     outline: none;
   }
   
@@ -162,6 +163,8 @@
 
   @media screen and (max-width: 768px){
     .loginFormContainer {
+      width: 100%;
+      min-height: 100vh;
       background-image: url('https://img.transistor.fm/ezDPAvEDEj-rrQHeGf-5HhZAEb9oLuBkoYFX_HqUh7A/rs:fill:800:800:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80MTRm/Nzg0MDMyZTU0YTk0/OGRhMDhjN2FlNGMy/M2RkYi5qcGc.webp');
     }
 

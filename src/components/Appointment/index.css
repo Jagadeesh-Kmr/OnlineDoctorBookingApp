@@ -203,7 +203,7 @@
     .ap-main-div {
       width: 100%;
       padding: 0px;
-      padding-bottom: 40px;
+      padding-bottom: 110px;
     }
 
     .ap-details-div {
@@ -322,7 +322,7 @@
     .av-time-ul {
       display: flex;
       flex-wrap: wrap;
-      width: 320px;
+      width: 100%;
     }
     
     .time-li {

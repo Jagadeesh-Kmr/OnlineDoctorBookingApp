@@ -122,6 +122,10 @@
   @media screen and (max-width: 768px) {
     .payment-main-div {
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 40px;
     }
   
     .payment-h1{
@@ -132,6 +136,7 @@
     .patient-details {
       font-size: 15px;
       width: 260px;
+      margin-top: 50px;
     }
   
     .payment-error-div{
@@ -142,11 +147,14 @@
     .success-icon {
       width: 220px;
       margin-bottom: 10px;
+      padding-top: 0px;
+      margin-top: 0px;
     }
   
     .appointment-success {
       width: 100%;
       margin: 0px;
+      padding-top: 0px;
     }
   
     .appointment-success h1 {

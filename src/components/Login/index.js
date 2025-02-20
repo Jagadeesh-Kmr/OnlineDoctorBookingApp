@@ -28,9 +28,6 @@ const Login = () => {
                 setErrorMsg("USERNAME OR PASSWORD IS INVALID")
               };
       };
-        const onSubmitFailure = error => {
-                  setErrorMsg(error)
-      };
 
       const onclickPassword = () => {
         setPasswordSee(!passwordSee)
@@ -58,7 +55,7 @@ const Login = () => {
                   <label className="label" htmlFor="password">
                     Enter Password*
                   </label>
-                  <div className='password-div'>
+                <div className='password-div'>
                   <input
                     type={passwordText}
                     id="password"
