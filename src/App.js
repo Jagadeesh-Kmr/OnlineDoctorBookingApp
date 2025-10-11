@@ -175,7 +175,6 @@ const App = () => {
     },
   ])
 
-
   const setRegisterDetail = registeredDetails => (
     setRegistrationDetails(registeredDetails)
   )
