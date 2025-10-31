@@ -4,10 +4,7 @@ The Online Doctor Appointment Booking System is a web-based platform that allows
 
 Features
 
-✔ Secure Login & Navigation – Authenticated routes for user access. 
-
-     userName: doctor
-     Password: doctor@care
+✔ Secure Firebase Login & Navigation – Authenticated routes for user access.
 
 ✔ Doctor Selection – Browse and choose doctors based on specialization.
 
